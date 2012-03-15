@@ -2,7 +2,6 @@
 <ruleset name="Tiki">
  <description>The Tiki coding standard.</description>
 
-
 <!-- Include some sniffs from all around the place -->
  <rule ref="Generic.Functions.FunctionCallArgumentSpacing"/>
  <rule ref="Generic.Functions.OpeningFunctionBraceBsdAllman"/>
@@ -33,11 +32,6 @@
  <!--<rule ref="Squiz.CSS.ForbiddenStyles"/> 03/04/11 remove by Changi because we have specific brother configuration-->
  <rule ref="Tiki.Files.SubversionProperties"/>
  <rule ref="Tiki.PHP.ForbiddenFunctions"/>
-<!-- <rule ref="Tiki.PHP.DeprecatedIniDirectives"/>
- <rule ref="Tiki.PHP.DeprecatedNewReference"/>
- <rule ref="Tiki.PHP.ForbiddenNames"/>
- <rule ref="Tiki.PHP.NonStaticMagicMethods"/>
- <rule ref="Tiki.PHP.RemovedExtensions"/>-->
  <rule ref="Generic.PHP.ForbiddenFunctions"/>
  <rule ref="Generic.CodeAnalysis.EmptyStatement"/>
  <rule ref="Generic.CodeAnalysis.ForLoopShouldBeWhileLoop"/>
