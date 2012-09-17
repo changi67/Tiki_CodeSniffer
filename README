@@ -1,1 +1,14 @@
 This place is used to store Tiki Wiki CMS Groupware CodeSniffer Rules used on http://quality.tiki.org
+
+You simply need to clone this repos and create a link in /usr/share/php/PHP/CodeSniffer/Standards
+
+$ sudo ln -s pathToGitClone /usr/share/php/PHP/CodeSniffer/Standards/Tiki
+
+After that use the command line phpcs to check your file
+
+$ phpcs --standard=Tiki -s --tab-width=4 filename
+
+If you want to integrate it in vim, use https://github.com/changi67/perfectenv/blob/master/.vim/plugin/phpcs.vim
+
+Good checkstyle.
+
